@@ -1,0 +1,165 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/musicbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    height: 90px;
+}
+
+.nav-brand{
+    width: 40px;
+    height: 40px;
+    background-color: cyan;
+    color: white;
+    margin-top: 20px;
+}
+
+.nav-brand h1{
+    margin: 3px 10px;
+}
+
+.nav-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.nav-links .nav-web ul{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+.nav-links .nav-web ul li{
+    display: inline;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 20px;
+}
+
+.nav-social{
+    display: flex;
+    padding-top: 10px;
+}
+
+.nav-social-item{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.nav-social-item img{
+    width: 100%;
+}
+
+section{
+    width: 90vw;
+    height: 90vh;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.float-right{
+    width: 50%;
+    font-weight: bold;
+}
+
+.float-right h1{
+    font-size: 3.5rem;
+    margin: 0;
+    line-height: 1;
+}
+
+.float-right p{
+    margin: 0;
+}
+
+.form-transparent{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+}
+
+.form-block>*{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-split{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-split-item{
+    width: 48%;
+}
+
+.form-split-item>*{
+    width: 100%;
+}
+
+select{
+    height: 35px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+option{
+    background-color: white;
+    color: cyan;
+    font-size: 1.1em;
+}
+
+input[type="text"]{
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input[type="submit"]{
+    padding: 12px;
+    background-color: cyan;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+input:hover,
+select:focus{
+    border: 1px solid cyan;
+}
